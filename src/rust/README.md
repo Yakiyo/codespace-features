@@ -1,25 +1,17 @@
 
-# Hello, World! (hello)
+# Rust-Template (rust)
 
-A hello world feature
+A feature for installing the rust toolchain and a small amount of utility apps (i.e. bat, lsd and oh-my-posh)
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/hello:1": {
+    "ghcr.io/devcontainers/Yakiyo/rust:1": {
         "version": "latest"
     }
 }
 ```
-
-## Options
-
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
-
-
 
 ---
 

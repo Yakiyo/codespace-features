@@ -2,12 +2,11 @@ apt-get update
 apt-get install -y \
     wget \
     unzip \
-    build-essential \
-    openssl
+    curl
 
 curl https://sh.rustup.rs -sSf | sh -s -- -y --profile=minimal
 
-export PATH="/root/.cargo/bin/":$PATH
+export PATH="$HOME/.cargo/bin/":$PATH
 
 curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
 
